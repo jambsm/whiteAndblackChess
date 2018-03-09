@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="@drawable/bj">
+
+	<Button
+		android:layout_height="60dp"
+		android:layout_width="100dp"
+		android:text="开始游戏"
+		android:id="@+id/start"/>
+
+	<Button
+		android:layout_height="60dp"
+		android:layout_width="100dp"
+		android:text="游戏设置"
+		android:id="@+id/set"
+		android:layout_marginTop="20dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="   抵制不良游戏 拒绝盗版游戏\n   注意自我保护 谨防受骗上当\n   适度游戏益脑 沉迷游戏伤身\n   合理安排时间 享受健康生活"
+		android:singleLine="false"
+		android:layout_marginTop="20dp"
+		android:textStyle="bold"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="焉知鱼作品"
+		android:layout_gravity="bottom|center"
+		android:layout_marginTop="20dp"
+		android:textSize="20sp"
+		android:textStyle="bold"/>
+
+</LinearLayout>
+
